@@ -1,0 +1,18 @@
+person:
+  name: wangyuan
+  age: ${random.int}
+  happy: false
+  birth: 2022/01/01
+  maps: {k1: v1,k2: v2}
+  hello: happy
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: ${person.hello:hello}_旺财
+
+dog:
+  first-name: 大黄
+  age: 4
+
